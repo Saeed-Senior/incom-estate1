@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Cards from '../Cards/Cards';
-import Damac from '../Damac/Damac';
+import ProjectsCard from '../Damac/ProjectsCard';
 import Faq from '../Faq/Faq';
 import Header from '../Header/Header';
 import Hills from '../Hills/Hills';
@@ -20,7 +20,9 @@ const Home = () => {
       <Investment />
       <Hills />
       <Sari />
-      <Damac />
+      <ProjectsCard link='/damac' image='./img/projects-cards/1.jpg' title={'DAMAC Properties'}/>
+      <ProjectsCard link='' image='./img/projects-cards/2.jpg' title={'Iman Developers'}/>
+      <ProjectsCard link='' image='./img/projects-cards/3.jpg' title={'Oro24 Developments'}/>
       <Services />
       <Faq />
     </div>
