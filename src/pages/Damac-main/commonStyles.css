@@ -1,0 +1,34 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 552px;
+}
+
+.banner .banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 418px;
+    margin-top: 92px;
+  }
+}
+@media (max-width: 400px) {
+  .banner {
+    height: 276px;
+    margin-top: 92px;
+  }
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: content-box;
+}/*# sourceMappingURL=commonStyles.css.map */

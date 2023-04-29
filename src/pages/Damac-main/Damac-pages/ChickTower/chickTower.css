@@ -1,0 +1,148 @@
+.chick-tower {
+  font-size: 20px;
+}
+.chick-tower h2 {
+  font-size: 40px;
+  line-height: 112%;
+  margin-bottom: 20px;
+}
+@media (max-width: 1330px) {
+  .chick-tower h2 {
+    font-size: calc(25px + 15 * (100vw - 768px) / 562);
+  }
+}
+@media (max-width: 1330px) {
+  .chick-tower {
+    font-size: calc(14px + 6 * (100vw - 768px) / 562);
+  }
+}
+
+.chick-tower__inner {
+  padding: 120px 0 100px 0;
+}
+.chick-tower__inner div {
+  margin-bottom: 70px;
+}
+
+.banner__inner {
+  display: flex;
+  padding: 0 5px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.26em;
+  color: white;
+}
+
+.banner-logo {
+  max-width: 555px;
+  margin-bottom: 5%;
+}
+
+.chick-tower__flex-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chick-tower__flex-one div:last-child {
+  margin-left: 20px;
+}
+
+.chick-tower__flex-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.chick-tower__flex-two div:last-child {
+  margin-right: 20px;
+}
+
+.chick-tower-flex {
+  display: flex;
+}
+.chick-tower-flex ul:first-child {
+  margin-right: 70px;
+}
+
+.chick-tower__flex-image {
+  flex-basis: 60%;
+}
+.chick-tower__flex-image img {
+  width: 100%;
+}
+
+.chick-tower__flex-text {
+  flex-basis: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  line-height: 140%;
+  margin: 16px 0;
+}
+
+@media (max-width: 768px) {
+  .chick-tower {
+    font-size: 20px;
+  }
+  .chick-tower h2 {
+    font-size: 40px;
+    line-height: 112%;
+    margin-bottom: 20px;
+  }
+  .chick-tower__inner {
+    padding: 70px 0 100px 0;
+  }
+  .chick-tower__inner div {
+    margin-bottom: 70px;
+  }
+  .chick-tower__flex-one {
+    display: block;
+  }
+  .chick-tower__flex-one div:last-child {
+    margin-left: 0;
+  }
+  .chick-tower__flex-two {
+    display: block;
+  }
+  .chick-tower__flex-two div:last-child {
+    margin-right: 0;
+  }
+  .banner-logo {
+    max-width: 75vw;
+  }
+  .banner__inner {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .chick-tower {
+    font-size: 20px;
+  }
+  .chick-tower h2 {
+    font-size: 32px;
+    line-height: 112%;
+    margin-bottom: 20px;
+  }
+  .chick-tower__inner {
+    padding: 48px 0 50px 0;
+  }
+  .chick-tower__inner div {
+    margin-bottom: 70px;
+  }
+  .banner__inner {
+    font-size: 12px;
+  }
+}
+.slider-chick-tower div {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}/*# sourceMappingURL=chickTower.css.map */

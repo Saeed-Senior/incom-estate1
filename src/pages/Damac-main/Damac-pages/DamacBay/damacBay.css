@@ -1,0 +1,112 @@
+.damac-bay__inner {
+  padding: 120px 0 100px 0;
+}
+.damac-bay__inner > div {
+  margin-bottom: 70px;
+}
+@media (max-width: 768px) {
+  .damac-bay__inner {
+    padding: 70px 0 100px 0;
+  }
+}
+@media (max-width: 400px) {
+  .damac-bay__inner {
+    padding: 48px 0 50px 0;
+  }
+}
+
+.first-gallery__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.first-gallery__sub-title {
+  text-align: center;
+  margin: 0 auto 55px;
+  max-width: 815px;
+}
+@media (max-width: 1330px) {
+  .first-gallery__sub-title {
+    margin-bottom: calc(34px + 21 * (100vw - 370px) / 960);
+    max-width: calc(500px + 315 * (100vw - 768px) / 562);
+  }
+}
+
+.damac-bay__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.damac-bay__gallery img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .damac-bay__gallery {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.damac-bay__harbour img {
+  width: 100%;
+}
+
+.damac-bay__flex-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.damac-bay__flex-one div:last-child {
+  margin-left: 20px;
+}
+
+.damac-bay__flex-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.damac-bay__flex-two div:last-child {
+  margin-right: 20px;
+}
+
+.damac-bay__flex-image {
+  flex-basis: 60%;
+}
+.damac-bay__flex-image img {
+  width: 100%;
+}
+
+.damac-bay__flex-text {
+  flex-basis: 40%;
+}
+.damac-bay__flex-text ul {
+  list-style-type: none;
+}
+.damac-bay__flex-text ul li {
+  line-height: 140%;
+  margin: 16px 0;
+}
+
+@media (max-width: 768px) {
+  .damac-bay__flex-one {
+    display: block;
+  }
+  .damac-bay__flex-one div:last-child {
+    margin-left: 0;
+  }
+  .damac-bay__flex-two {
+    display: block;
+  }
+  .damac-bay__flex-two div:last-child {
+    margin-right: 0;
+  }
+}
+.interior-gallery__title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+@media (max-width: 1330px) {
+  .interior-gallery__title {
+    margin-bottom: calc(34px + 21 * (100vw - 370px) / 960);
+  }
+}/*# sourceMappingURL=damacBay.css.map */

@@ -1,0 +1,154 @@
+
+.damac-lagoons__inner
+   padding: 120px 0 100px 0
+   > div
+      margin-bottom: 70px
+.damac-lagoons__gallery
+      display: grid
+      grid-template-columns: repeat(2, 1fr)
+      gap: 20px
+      img
+         width: 100%
+      @media (max-width: 768px)
+         grid-template-columns: 1fr
+         gap: 30px
+.damac-lagoons__title
+   display: flex
+   align-items: center
+   justify-content: center
+   text-align: center
+   max-width: 770px
+   height: 100%
+   color: white
+   font-size: 70px
+   line-height: 110%
+   margin: 0 auto 
+   padding: 0 15px 0
+   @media (max-width: 1330px)
+      font-size: calc(36px + (70 - 36) * ((100vw - 370px) / (1330 - 370)))
+      max-width: calc(400px + (770 - 400) * ((100vw - 370px) / (1330 - 370)))
+.damac-lagoons__regions
+   img
+      width: 100%
+.damac-lagoons__details
+   img
+      width: 100%
+.damac-lagoons__lagoon-card
+   display: flex
+   align-items: center
+   gap: 20px
+   @media (max-width: 768px)
+      flex-direction: column
+   .lagoon-card__text
+         flex-basis: 45%
+         color: white
+   .lagoon-card__img
+      flex-basis: 55%
+      img
+         width: 100%
+         height: 100%
+.lagoon-card__txt
+   font-size: 17px
+   line-height: 140%
+.lagoon-card__title
+   font-size: 48px
+.lagoon-card__sub-title
+   display: inline-block
+   margin: 25px 0 15px
+.lagoon-card__list
+   display: grid 
+   grid-template-columns: 1fr 1fr
+.lagoon-card
+   padding: 120px 0
+   @media (max-width: 1330px)
+      padding: calc(50px + (120 - 50) * ((100vw - 370px) / (1330 - 370))) 0
+.lagoon-card1
+   background-color: #9E9F50
+.lagoon-card2
+   background-color: #74A0B5
+.lagoon-card3
+   background-color: #85A350
+.lagoon-card4
+   background-color: #BAAA61
+.lagoon-card5
+   background-color: #CA695E
+.lagoon-card6
+   background-color: #92382F
+.lagoon-card7
+   background-color: #41AD4B
+.lagoon-card8
+   background-color: #D69B19
+
+.villas__container
+   img
+      width: 100%
+.villas__title
+   max-width: 1300px
+   margin: 0 auto
+   padding: 0 24px
+   box-sizing: content-box
+.villas__inner
+   background-color: #1A1B1E
+
+.merit
+   &__overhead
+      display: block
+      text-align: center
+      font-weight: 600
+      font-size: 32px
+      @media (max-width: 1330px)
+         font-size: calc(20px + (32 - 20) * ((100vw - 370px) / (1330 - 370)))
+   &__title
+      max-width: 590px
+      margin: 32px auto 45px
+      font-size: 48px
+      line-height: 140%
+      text-align: center
+      text-transform: uppercase
+      @media (max-width: 1330px)
+         font-size: calc(24px + (48 - 24) * ((100vw - 370px) / (1330 - 370)))
+   &__damac
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding-bottom: 48px
+      @media (max-width: 600px)
+         display: block
+   &__damac-txt
+      flex-basis: 45%
+   &__damac-img
+      flex-basis: 50%
+      @media (max-width: 600px)
+         margin-top: 70px
+      img
+         width: 100%
+   &__awards
+      display: flex
+      justify-content: space-around
+      align-items: center
+      padding-top: 48px
+      border-top: 2px solid #CCCCCC
+      @media (max-width: 768px)
+         display: block
+   &__award
+      display: flex
+      align-items: center
+      @media (max-width: 768px)
+         justify-content: space-between
+      img
+         max-width: 130px
+      span
+         max-width: 270px
+         @media (max-width: 768px)
+            max-width: 768px
+
+.damac-lagoons
+   section
+      padding-bottom: 120px
+      @media (max-width: 1330px)
+         padding-bottom: calc(70px + (120 - 70) * ((100vw - 370px) / (1330 - 370)))
+
+.damac-lagoons__regions-title, .damac-lagoons__details-title, .villas__title
+   margin-bottom: 55px
+   @media (max-width: 1330px)
+      margin-bottom: calc(34px + (55 - 34) * ((100vw - 370px) / (1330 - 370)))

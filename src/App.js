@@ -1,0 +1,44 @@
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import CardsSliderPage from './Cards/CardsSliderPage';
+import HillsSliderPage from './Hills/HillsSliderPage';
+import InvestmentSliderPage from './Investment/InvestmentSliderPage';
+import SariSliderPage from './Sari/SariSliderPage';
+import About from './pages/About';
+import Damac from './pages/Damac-main/DamacMain'
+import SafaOne from './pages/Damac-main/Damac-pages/SafaOne/SafaOne';
+import ChickTower from './pages/Damac-main/Damac-pages/ChickTower/ChickTower';
+import CavalliCouture from './pages/Damac-main/Damac-pages/CavalliCouture/CavalliCouture';
+import DamacLagoons from './pages/Damac-main/Damac-pages/DamacLagoons/DamacLagoons';
+import DamacBay from './pages/Damac-main/Damac-pages/DamacBay/DamacBay';
+import DamacBay2 from './pages/Damac-main/Damac-pages/DamacBay2/DamacBay2';
+import DamacHills2 from './pages/Damac-main/Damac-pages/DamacHills2/DamacHills2';
+
+
+const App = () => {
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/damac" element={<Damac/>}/>
+        <Route path="/safa one" element={<SafaOne/>}/>
+        <Route path="/chick tower" element={<ChickTower/>}/>
+        <Route path="/cavalli couture" element={<CavalliCouture/>}/>
+        <Route path="/damac lagoons" element={<DamacLagoons/>}/>
+        <Route path="/damac bay" element={<DamacBay/>}/>
+        <Route path="/damac bay2" element={<DamacBay2/>}/>
+        <Route path="/damac hills2" element={<DamacHills2/>}/>
+        <Route path="/slider1" element={<CardsSliderPage />} />
+        <Route path="/slider2" element={<HillsSliderPage />} />
+        <Route path="/slider3" element={<InvestmentSliderPage />} />
+        <Route path="/slider4" element={<SariSliderPage />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+};
+
+export default App;

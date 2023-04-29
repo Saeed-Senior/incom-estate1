@@ -1,0 +1,83 @@
+.damac-bay__inner
+   padding: 120px 0 100px 0
+   > div
+      margin-bottom: 70px
+   @media (max-width: 768px)
+      padding: 70px 0 100px 0
+   @media (max-width: 400px)
+      padding: 48px 0 50px 0
+
+.first-gallery
+   &__title
+      text-align: center
+      margin-bottom: 20px
+   &__sub-title
+      text-align: center
+      margin: 0 auto 55px
+      max-width: 815px
+      @media (max-width: 1330px)
+         margin-bottom: calc(34px + (55 - 34) * ((100vw - 370px) / (1330 - 370)))
+         max-width: calc(500px + (815 - 500) * ((100vw - 768px) / (1330 - 768)))
+
+.damac-bay__gallery
+   display: grid
+   grid-template-columns: repeat(2, 1fr)
+   gap: 20px
+   img
+      width: 100%
+   @media (max-width: 768px)
+      grid-template-columns: 1fr
+      gap: 30px
+
+.damac-bay__harbour
+   img
+      width: 100%
+
+.damac-bay__flex-one
+   display: flex
+   align-items: center
+   justify-content: space-between
+   div:last-child
+      margin-left: 20px
+
+
+
+.damac-bay__flex-two
+   display: flex
+   flex-direction: row-reverse
+   align-items: center
+   justify-content: space-between
+   div:last-child
+      margin-right: 20px
+
+
+.damac-bay__flex-image
+   flex-basis: 60%
+   img
+      width: 100%
+
+
+.damac-bay__flex-text
+   flex-basis: 40%
+   ul 
+      list-style-type: none
+      li
+         line-height: 140%
+         margin: 16px 0
+
+
+@media (max-width: 768px)
+   .damac-bay__flex-one
+      display: block
+      div:last-child
+         margin-left: 0
+   .damac-bay__flex-two
+      display: block
+      div:last-child
+         margin-right: 0
+
+.interior-gallery__title
+   text-align: center
+   margin-bottom: 55px
+   @media (max-width: 1330px)
+      margin-bottom: calc(34px + (55 - 34) * ((100vw - 370px) / (1330 - 370)))

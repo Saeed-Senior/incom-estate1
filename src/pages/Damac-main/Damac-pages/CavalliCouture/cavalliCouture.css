@@ -1,0 +1,388 @@
+.cavalli-couture {
+  font-size: 20px;
+}
+.cavalli-couture h2 {
+  font-size: 40px;
+  line-height: 112%;
+  margin-bottom: 20px;
+}
+@media (max-width: 1330px) {
+  .cavalli-couture h2 {
+    font-size: calc(25px + 15 * (100vw - 768px) / 562);
+  }
+}
+@media (max-width: 1330px) {
+  .cavalli-couture {
+    font-size: calc(14px + 6 * (100vw - 768px) / 562);
+  }
+}
+
+.cavalli-couture__inner {
+  padding: 120px 0 100px 0;
+}
+.cavalli-couture__inner > div {
+  margin-bottom: 70px;
+}
+
+.banner__inner-cc {
+  display: flex;
+  padding-top: 5%;
+  height: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  font-size: 24px;
+  line-height: 35px;
+  color: white;
+}
+@media (max-width: 400px) {
+  .banner__inner-cc {
+    padding-top: 2.5%;
+  }
+}
+.banner__inner-cc .banner-logo {
+  max-width: 172px;
+  margin-bottom: 5%;
+}
+@media (max-width: 768px) {
+  .banner__inner-cc .banner-logo {
+    max-width: 120px;
+  }
+}
+@media (max-width: 400px) {
+  .banner__inner-cc .banner-logo {
+    max-width: 100px;
+  }
+}
+
+.banner__inner-cc-text {
+  max-width: 400px;
+}
+.banner__inner-cc-text h1 {
+  line-height: 110%;
+  margin-top: 10%;
+}
+@media (max-width: 1000px) {
+  .banner__inner-cc-text h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .banner__inner-cc-text h1 {
+    margin-top: 2%;
+  }
+}
+.banner__inner-cc-text h3 {
+  margin: 24px 0;
+}
+@media (max-width: 1000px) {
+  .banner__inner-cc-text h3 {
+    margin: 11px 0;
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .banner__inner-cc-text h3 {
+    line-height: 110%;
+  }
+}
+.banner__inner-cc-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+@media (max-width: 1000px) {
+  .banner__inner-cc-text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .banner__inner-cc-text p {
+    font-size: 10px;
+  }
+}
+
+.cavalli-couture__flex-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cavalli-couture__flex-one div:last-child {
+  margin-left: 20px;
+}
+
+.cavalli-couture__flex-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.cavalli-couture__flex-two div:last-child {
+  margin-right: 20px;
+}
+.cavalli-couture__flex-two span {
+  display: block;
+}
+.cavalli-couture__flex-two p {
+  margin-bottom: 20px;
+}
+
+.cavalli-couture__flex-image {
+  flex-basis: 60%;
+}
+.cavalli-couture__flex-image img {
+  width: 100%;
+}
+
+.cavalli-couture__flex-text {
+  flex-basis: 40%;
+}
+
+.cavalli-couture__inner div:nth-child(2) .cavalli-couture__flex-text {
+  flex-basis: 65%;
+}
+.cavalli-couture__inner div:nth-child(2) .cavalli-couture__flex-image {
+  flex-basis: 35%;
+}
+.cavalli-couture__inner div:nth-child(2) .cavalli-couture__flex-image img {
+  width: 100%;
+}
+.cavalli-couture__inner div:nth-child(3) .cavalli-couture__flex-text {
+  flex-basis: 65%;
+}
+.cavalli-couture__inner div:nth-child(3) .cavalli-couture__flex-image {
+  flex-basis: 35%;
+}
+.cavalli-couture__inner div:nth-child(3) .cavalli-couture__flex-image img {
+  width: 100%;
+}
+.cavalli-couture__inner div:nth-child(6) .cavalli-couture__flex-text {
+  flex-basis: 57%;
+}
+.cavalli-couture__inner div:nth-child(6) .cavalli-couture__flex-image {
+  flex-basis: 43%;
+}
+.cavalli-couture__inner div:nth-child(6) .cavalli-couture__flex-image img {
+  width: 100%;
+  height: 100%;
+}
+.cavalli-couture__inner div:nth-child(8) .cavalli-couture__flex-text {
+  flex-basis: 57%;
+}
+.cavalli-couture__inner div:nth-child(8) .cavalli-couture__flex-image {
+  flex-basis: 43%;
+}
+.cavalli-couture__inner div:nth-child(8) .cavalli-couture__flex-image img {
+  width: 100%;
+  height: 100%;
+}
+.cavalli-couture__inner div:nth-child(10) .cavalli-couture__flex-text {
+  flex-basis: 60%;
+}
+.cavalli-couture__inner div:nth-child(10) .cavalli-couture__flex-image {
+  flex-basis: 40%;
+}
+.cavalli-couture__inner div:nth-child(10) .cavalli-couture__flex-image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .cavalli-couture__gallery {
+    display: none;
+  }
+}
+
+.gallery {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(5, 300px);
+  grid-template-columns: repeat(7, 1fr);
+  list-style-type: none;
+}
+@media (max-width: 1330px) {
+  .gallery {
+    grid-template-rows: repeat(5, calc(140px + 160 * (100vw - 768px) / 562));
+    gap: calc(5px + 5 * (100vw - 768px) / 562);
+  }
+}
+.gallery div {
+  height: 100%;
+  gap: 10px;
+  position: relative;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.gallery__img1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.gallery__img2 {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.gallery__img3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.gallery__img4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.gallery__img5 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.gallery__img6 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.gallery__img7 {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.gallery li {
+  line-height: 140%;
+  margin: 16px 0;
+}
+
+.payment-plan .payment-title {
+  margin-bottom: 70px;
+}
+@media (max-width: 1330px) {
+  .payment-plan .payment-title {
+    margin-bottom: calc(50px + 20 * (100vw - 768px) / 562);
+  }
+}
+
+.payment-plan-layout {
+  display: grid;
+  grid-template-areas: "a b c" "d d d";
+}
+.payment-plan-layout .payment-plan__item {
+  padding: 20px;
+}
+.payment-plan-layout .payment-plan__item .payment-plan__item-title {
+  color: white;
+  font-size: 90px;
+}
+@media (max-width: 1330px) {
+  .payment-plan-layout .payment-plan__item .payment-plan__item-title {
+    font-size: calc(40px + 50 * (100vw - 768px) / 562);
+  }
+}
+@media (max-width: 600px) {
+  .payment-plan-layout .payment-plan__item .payment-plan__item-title {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1330px) {
+  .payment-plan-layout .payment-plan__item .payment-plan__item-title {
+    margin-bottom: calc(40px + 10 * (100vw - 768px) / 562);
+  }
+}
+@media (max-width: 600px) {
+  .payment-plan-layout .payment-plan__item .payment-plan__item-title {
+    margin-bottom: 50px;
+  }
+}
+.payment-plan-layout .payment-plan__item span {
+  color: white;
+  display: block;
+}
+@media (max-width: 600px) {
+  .payment-plan-layout {
+    display: block;
+  }
+}
+.payment-plan-layout .payment-plan__item1 {
+  grid-area: a;
+  background-color: #BAA36C;
+}
+.payment-plan-layout .payment-plan__item2 {
+  grid-area: b;
+  background-color: #000;
+}
+.payment-plan-layout .payment-plan__item3 {
+  grid-area: c;
+  background-color: #BAA36C;
+}
+.payment-plan-layout .payment-plan__item4 {
+  grid-area: d;
+  background-image: url("../../../../../public/img/cavalli-couture/bg.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .cavalli-couture {
+    font-size: 20px;
+  }
+  .cavalli-couture h2 {
+    font-size: 40px;
+    line-height: 112%;
+    margin-bottom: 20px;
+  }
+  .cavalli-couture__inner {
+    padding: 70px 0 100px 0;
+  }
+  .cavalli-couture__inner > div {
+    margin-bottom: 70px;
+  }
+  .cavalli-couture__flex-one {
+    display: block;
+  }
+  .cavalli-couture__flex-one div:last-child {
+    margin-left: 0;
+  }
+  .cavalli-couture__flex-two {
+    display: block;
+  }
+  .cavalli-couture__flex-two div:last-child {
+    margin-right: 0;
+  }
+  .banner-logo {
+    max-width: 75vw;
+  }
+  .banner__inner {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .cavalli-couture {
+    font-size: 20px;
+  }
+  .cavalli-couture h2 {
+    font-size: 32px;
+    line-height: 112%;
+    margin-bottom: 20px;
+  }
+  .cavalli-couture__inner {
+    padding: 48px 0 50px 0;
+  }
+  .cavalli-couture__inner > div {
+    margin-bottom: 70px;
+  }
+  .banner__inner {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=cavalliCouture.css.map */

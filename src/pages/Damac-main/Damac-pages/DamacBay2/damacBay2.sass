@@ -1,0 +1,174 @@
+.damac-bay2__inner
+   padding: 120px 0 50px 0
+   > div
+      margin-bottom: 70px
+   @media (max-width: 768px)
+      padding: 70px 0 30px 0
+   @media (max-width: 400px)
+      padding: 48px 0 0 0
+
+.damac-bay2
+   &__title-wrap
+      display: flex
+      height: 100%
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      color: white
+      font-size: 24px
+      line-height: 117%
+      @media (max-width: 1330px)
+         font-size: calc(16px + (24 - 16) * ((100vw - 370px) / (1330 - 370)))
+   &__overhead
+   &__title
+      text-transform: uppercase
+      font-weight: 300
+      font-size: 112px
+      line-height: 130%
+      @media (max-width: 1330px)
+         font-size: calc(32px + (112 - 32) * ((100vw - 370px) / (1330 - 370)))
+   &__sub-title
+      color: #C3E7BE
+
+.damac-bay2__flex-one
+   display: flex
+   align-items: center
+   justify-content: space-between
+   div:first-child
+      margin-right: 20px
+
+.db2-flex
+   &__title
+      font-size: 64px
+      line-height: 116%
+      text-transform: uppercase
+      margin-bottom: 20px
+      @media (max-width: 1330px)
+         font-size: calc(32px + (64 - 32) * ((100vw - 370px) / (1330 - 370)))
+   &__list
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      justify-content: space-between
+      margin: 20px 0
+      @media (max-width: 768px)
+         justify-content: start
+         flex-wrap: wrap
+      .db2-flex__list-item
+         margin-right: 5%
+   &__list-item
+      max-width: 75px
+      text-align: center
+
+      img
+         max-width: 75px
+      span
+         display: block
+         font-size: 16px
+         line-height: 120%
+
+.damac-bay2__flex-two
+   display: flex
+   flex-direction: row-reverse
+   align-items: flex-start
+   justify-content: space-between
+   mrgin-bottom: 0
+   .damac-bay2__flex-text
+      img
+         max-width: 330px
+   h2
+      margin: 20px 0
+   div:last-child
+      margin-right: 20px
+
+
+.damac-bay2__flex-image
+   flex-basis: 60%
+   img
+      width: 100%
+
+
+.damac-bay2__flex-text
+   flex-basis: 40%
+   ul 
+      list-style-type: none
+      li
+         line-height: 140%
+         margin: 16px 0
+
+.brochure
+   background-color: #343435
+   color: white
+   padding: 100px 0
+   @media (max-width: 768px)
+      padding: 70px 0
+   @media (max-width: 400px)
+      padding: 48px 0
+   &__container
+      display: flex
+      @media (max-width: 768px)
+         display: block
+   &__text
+   &__title
+      margin-top: 15%
+      font-size: 48px
+      line-height: 130%
+      text-transform: uppercase
+      @media (max-width: 768px)
+         margin-top: 0%
+      @media (max-width: 1330px)
+         font-size: calc(32px + (48 - 32) * ((100vw - 370px) / (1330 - 370)))
+      span
+         color: #C77C46
+   &__list
+      display: flex
+      align-items: center
+      flex-wrap: wrap
+      .brochure__list-item
+         margin-right: 20px
+      .brochure__list-item:last-child
+         margin-right: 0px
+   &__list-item
+   &__img
+      img
+         width: 100%
+
+.db2-map
+   background-color: #EDE7E2
+   padding: 120px 0
+   @media (max-width: 768px)
+      padding: 70px 0
+   @media (max-width: 400px)
+      padding: 48px 0
+   &__container
+      display: flex
+      align-items: center
+      justify-content: center
+      @media (max-width: 768px)
+         display: block
+   &__text
+      flex-basis: 48%
+      p
+         margin-bottom: 32px
+   &__title
+      font-size: 48px
+      line-height: 130%
+      text-transform: uppercase
+      @media (max-width: 1330px)
+         font-size: calc(32px + (48 - 32) * ((100vw - 370px) / (1330 - 370)))
+   &__img
+      flex-basis: 48%
+      img
+         width: 100%
+
+@media (max-width: 768px)
+   .damac-bay2__flex-one
+      display: block
+      div:last-child
+         margin-left: 0
+   .damac-bay2__flex-text
+      width: 100%
+   .damac-bay2__flex-two
+      display: block
+      div:last-child
+         margin-right: 0

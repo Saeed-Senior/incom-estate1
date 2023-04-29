@@ -1,0 +1,252 @@
+.damac-bay2__inner {
+  padding: 120px 0 50px 0;
+}
+.damac-bay2__inner > div {
+  margin-bottom: 70px;
+}
+@media (max-width: 768px) {
+  .damac-bay2__inner {
+    padding: 70px 0 30px 0;
+  }
+}
+@media (max-width: 400px) {
+  .damac-bay2__inner {
+    padding: 48px 0 0 0;
+  }
+}
+
+.damac-bay2__title-wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  line-height: 117%;
+}
+@media (max-width: 1330px) {
+  .damac-bay2__title-wrap {
+    font-size: calc(16px + 8 * (100vw - 370px) / 960);
+  }
+}
+.damac-bay2__title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 112px;
+  line-height: 130%;
+}
+@media (max-width: 1330px) {
+  .damac-bay2__title {
+    font-size: calc(32px + 80 * (100vw - 370px) / 960);
+  }
+}
+.damac-bay2__sub-title {
+  color: #C3E7BE;
+}
+
+.damac-bay2__flex-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.damac-bay2__flex-one div:first-child {
+  margin-right: 20px;
+}
+
+.db2-flex__title {
+  font-size: 64px;
+  line-height: 116%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media (max-width: 1330px) {
+  .db2-flex__title {
+    font-size: calc(32px + 32 * (100vw - 370px) / 960);
+  }
+}
+.db2-flex__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  .db2-flex__list {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+}
+.db2-flex__list .db2-flex__list-item {
+  margin-right: 5%;
+}
+.db2-flex__list-item {
+  max-width: 75px;
+  text-align: center;
+}
+.db2-flex__list-item img {
+  max-width: 75px;
+}
+.db2-flex__list-item span {
+  display: block;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.damac-bay2__flex-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  mrgin-bottom: 0;
+}
+.damac-bay2__flex-two .damac-bay2__flex-text img {
+  max-width: 330px;
+}
+.damac-bay2__flex-two h2 {
+  margin: 20px 0;
+}
+.damac-bay2__flex-two div:last-child {
+  margin-right: 20px;
+}
+
+.damac-bay2__flex-image {
+  flex-basis: 60%;
+}
+.damac-bay2__flex-image img {
+  width: 100%;
+}
+
+.damac-bay2__flex-text {
+  flex-basis: 40%;
+}
+.damac-bay2__flex-text ul {
+  list-style-type: none;
+}
+.damac-bay2__flex-text ul li {
+  line-height: 140%;
+  margin: 16px 0;
+}
+
+.brochure {
+  background-color: #343435;
+  color: white;
+  padding: 100px 0;
+}
+@media (max-width: 768px) {
+  .brochure {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 400px) {
+  .brochure {
+    padding: 48px 0;
+  }
+}
+.brochure__container {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .brochure__container {
+    display: block;
+  }
+}
+.brochure__title {
+  margin-top: 15%;
+  font-size: 48px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .brochure__title {
+    margin-top: 0%;
+  }
+}
+@media (max-width: 1330px) {
+  .brochure__title {
+    font-size: calc(32px + 16 * (100vw - 370px) / 960);
+  }
+}
+.brochure__title span {
+  color: #C77C46;
+}
+.brochure__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.brochure__list .brochure__list-item {
+  margin-right: 20px;
+}
+.brochure__list .brochure__list-item:last-child {
+  margin-right: 0px;
+}
+.brochure__img img {
+  width: 100%;
+}
+
+.db2-map {
+  background-color: #EDE7E2;
+  padding: 120px 0;
+}
+@media (max-width: 768px) {
+  .db2-map {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 400px) {
+  .db2-map {
+    padding: 48px 0;
+  }
+}
+.db2-map__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .db2-map__container {
+    display: block;
+  }
+}
+.db2-map__text {
+  flex-basis: 48%;
+}
+.db2-map__text p {
+  margin-bottom: 32px;
+}
+.db2-map__title {
+  font-size: 48px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+@media (max-width: 1330px) {
+  .db2-map__title {
+    font-size: calc(32px + 16 * (100vw - 370px) / 960);
+  }
+}
+.db2-map__img {
+  flex-basis: 48%;
+}
+.db2-map__img img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .damac-bay2__flex-one {
+    display: block;
+  }
+  .damac-bay2__flex-one div:last-child {
+    margin-left: 0;
+  }
+  .damac-bay2__flex-text {
+    width: 100%;
+  }
+  .damac-bay2__flex-two {
+    display: block;
+  }
+  .damac-bay2__flex-two div:last-child {
+    margin-right: 0;
+  }
+}/*# sourceMappingURL=damacBay2.css.map */

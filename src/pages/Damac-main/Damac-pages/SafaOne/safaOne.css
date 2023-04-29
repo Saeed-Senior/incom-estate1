@@ -1,0 +1,140 @@
+.safa-one {
+  font-size: 20px;
+}
+.safa-one h2 {
+  font-size: 40px;
+  line-height: 112%;
+  margin-bottom: 20px;
+}
+@media (max-width: 1330px) {
+  .safa-one h2 {
+    font-size: calc(25px + 15 * (100vw - 768px) / 562);
+  }
+}
+@media (max-width: 1330px) {
+  .safa-one {
+    font-size: calc(14px + 6 * (100vw - 768px) / 562);
+  }
+}
+
+.safa-one__inner {
+  padding: 120px 0 100px 0;
+}
+.safa-one__inner div {
+  margin-bottom: 70px;
+}
+
+.banner__inner {
+  display: flex;
+  padding: 0 5px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.26em;
+  color: white;
+}
+
+.banner-logo {
+  max-width: 555px;
+  margin-bottom: 5%;
+}
+
+.safa-one__flex-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.safa-one__flex-one div:last-child {
+  margin-left: 20px;
+}
+
+.safa-one__flex-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.safa-one__flex-two div:last-child {
+  margin-right: 20px;
+}
+
+.safa-one__flex-image {
+  flex-basis: 60%;
+}
+.safa-one__flex-image img {
+  width: 100%;
+}
+
+.safa-one__flex-text {
+  flex-basis: 40%;
+}
+.safa-one__flex-text ul {
+  list-style-type: none;
+}
+.safa-one__flex-text ul li {
+  line-height: 140%;
+  margin: 16px 0;
+}
+
+@media (max-width: 768px) {
+  .safa-one {
+    font-size: 20px;
+  }
+  .safa-one h2 {
+    font-size: 40px;
+    line-height: 112%;
+    margin-bottom: 20px;
+  }
+  .safa-one__inner {
+    padding: 70px 0 100px 0;
+  }
+  .safa-one__inner div {
+    margin-bottom: 70px;
+  }
+  .safa-one__flex-one {
+    display: block;
+  }
+  .safa-one__flex-one div:last-child {
+    margin-left: 0;
+  }
+  .safa-one__flex-two {
+    display: block;
+  }
+  .safa-one__flex-two div:last-child {
+    margin-right: 0;
+  }
+  .banner-logo {
+    max-width: 75vw;
+  }
+  .banner__inner {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .safa-one {
+    font-size: 20px;
+  }
+  .safa-one h2 {
+    font-size: 32px;
+    line-height: 112%;
+    margin-bottom: 20px;
+  }
+  .safa-one__inner {
+    padding: 48px 0 50px 0;
+  }
+  .safa-one__inner div {
+    margin-bottom: 70px;
+  }
+  .banner__inner {
+    font-size: 12px;
+  }
+  div {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}/*# sourceMappingURL=safaOne.css.map */
