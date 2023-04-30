@@ -20,35 +20,35 @@ const ChickTowerSlider = () => {
             <SwiperSlide>
               <div className="card">
                 <div className="card__image">
-                  <img src='./img/chick-tower/main-slide.jpg' alt="" />
+                  <img src='./img/chick-tower/main-slide.png' alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="card">
                 <div className="card__image">
-                  <img src='./img/chick-tower/slide1.jpg' alt="" />
+                  <img src='./img/chick-tower/slide1.png' alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="card">
                 <div className="card__image">
-                  <img src='./img/chick-tower/slide2.jpg' alt="" />
+                  <img src='./img/chick-tower/slide2.png' alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="card">
                 <div className="card__image">
-                  <img src='./img/chick-tower/slide3.jpg' alt="" />
+                  <img src='./img/chick-tower/slide3.png' alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="card">
                 <div className="card__image">
-                  <img src='./img/chick-tower/slide4.jpg' alt="" />
+                  <img src='./img/chick-tower/slide2.png' alt="" />
                 </div>
               </div>
             </SwiperSlide>

@@ -21,7 +21,7 @@ const Home = () => {
       <Hills />
       <Sari />
       <ProjectsCard link='/damac' image='./img/projects-cards/1.jpg' title={'DAMAC Properties'}/>
-      <ProjectsCard link='' image='./img/projects-cards/2.jpg' title={'Iman Developers'}/>
+      <ProjectsCard link='' image='./img/projects-cards/2.png' title={'Iman Developers'}/>
       <ProjectsCard link='' image='./img/projects-cards/3.jpg' title={'Oro24 Developments'}/>
       <Services />
       <Faq />

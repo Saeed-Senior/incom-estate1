@@ -71,7 +71,7 @@ const SafaOne = () => {
                </p>
             </div>
             <div className='safa-one__flex-image'>
-            <img src='./img/safa-one/image4.jpg' alt='img'/>
+            <img src='./img/safa-one/image4.png' alt='img'/>
             </div>
          </div>
          <FloorPlans title1={t('one-bedroom')} title2={t('two-bedroom')} title3={t('three-bedroom')}

@@ -45,8 +45,14 @@ nav {
   margin-left: 70px;
 }
 .menu__item {
+  font-size: 20px;
   margin-right: 32px;
   transition: 0.2s linear;
+}
+@media (min-width: 768px) and (max-width: 1330px) {
+  .menu__item {
+    font-size: calc(10px + 10 * (100vw - 768px) / 562);
+  }
 }
 .menu__item:hover {
   color: #7c8b93;

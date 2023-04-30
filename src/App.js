@@ -1,13 +1,17 @@
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import { Routes, Route } from 'react-router-dom';
+
 import Home from './pages/Home';
+import About from './pages/About';
+import News from './pages/News/News';
+import Damac from './pages/Damac-main/DamacMain';
+
 import CardsSliderPage from './Cards/CardsSliderPage';
 import HillsSliderPage from './Hills/HillsSliderPage';
 import InvestmentSliderPage from './Investment/InvestmentSliderPage';
 import SariSliderPage from './Sari/SariSliderPage';
-import About from './pages/About';
-import Damac from './pages/Damac-main/DamacMain'
+
 import SafaOne from './pages/Damac-main/Damac-pages/SafaOne/SafaOne';
 import ChickTower from './pages/Damac-main/Damac-pages/ChickTower/ChickTower';
 import CavalliCouture from './pages/Damac-main/Damac-pages/CavalliCouture/CavalliCouture';
@@ -16,6 +20,7 @@ import DamacBay from './pages/Damac-main/Damac-pages/DamacBay/DamacBay';
 import DamacBay2 from './pages/Damac-main/Damac-pages/DamacBay2/DamacBay2';
 import DamacHills2 from './pages/Damac-main/Damac-pages/DamacHills2/DamacHills2';
 
+import FirstNews from './pages/News/FirstNews/FirstNews'
 
 const App = () => {
   return (
@@ -23,7 +28,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/news" element={<News />} />
         <Route path="/damac" element={<Damac/>}/>
+
         <Route path="/safa one" element={<SafaOne/>}/>
         <Route path="/chick tower" element={<ChickTower/>}/>
         <Route path="/cavalli couture" element={<CavalliCouture/>}/>
@@ -31,10 +38,13 @@ const App = () => {
         <Route path="/damac bay" element={<DamacBay/>}/>
         <Route path="/damac bay2" element={<DamacBay2/>}/>
         <Route path="/damac hills2" element={<DamacHills2/>}/>
+
         <Route path="/slider1" element={<CardsSliderPage />} />
         <Route path="/slider2" element={<HillsSliderPage />} />
         <Route path="/slider3" element={<InvestmentSliderPage />} />
         <Route path="/slider4" element={<SariSliderPage />} />
+
+        <Route path="/news1" element={<FirstNews />} />
       </Routes>
       <Footer />
     </div>

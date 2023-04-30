@@ -32,6 +32,9 @@ const Nav = () => {
                 <Link to="/#services" className="menu__item">
                   {t('Services')}
                 </Link>
+                <Link to="/news" className="menu__item">
+                  {t('news')}
+                </Link>
                 <Link to="/about" className="menu__item">
                   {t('About')}
                 </Link>

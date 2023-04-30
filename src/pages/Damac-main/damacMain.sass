@@ -1,8 +1,15 @@
 .damac
    padding-bottom: 150px
-   .banner
-      @media (max-width: 1330px)
-         height: calc(210px + (552 - 210) * ((100vw - 400px) / (1330 - 400)))
+   &__logo
+      max-width: 900px
+      padding: 10% 20px 0
+      margin: 0 auto 
+
+      img
+         width: 345px
+         @media (max-width: 1330px)
+            width: calc(170px + (345 - 170) * ((100vw - 400px) / (1330 - 400)))
+
 
 
 
@@ -43,12 +50,16 @@
    .damac
       padding-bottom: 100px
 
-
-.damac-page img
-   border-radius: 15px
-   width: 100%
-   transition: .3s
-   cursor: pointer
+.damac-page 
+   &__image
+      height: 280px
+   img
+      object-fit: cover
+      height: 100%
+      border-radius: 15px
+      width: 100%
+      transition: .3s
+      cursor: pointer
 
 .damac-page img:hover
    box-shadow: 0 0 10px #b8b7b5

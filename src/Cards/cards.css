@@ -324,23 +324,23 @@
   margin: 0 8px;
 }
 .safa-one-slider .swiper-pagination-bullet:nth-child(1) {
-  background-image: url("../../public/img/safa-one/main-slide.jpg");
+  background-image: url("../../public/img/safa-one/main-slide.png");
   background-position: center top;
 }
 .safa-one-slider .swiper-pagination-bullet:nth-child(2) {
-  background-image: url("../../public/img/safa-one/slide1.jpg");
+  background-image: url("../../public/img/safa-one/slide1.png");
   background-position: center top;
 }
 .safa-one-slider .swiper-pagination-bullet:nth-child(3) {
-  background-image: url("../../public/img/safa-one/slide2.jpg");
+  background-image: url("../../public/img/safa-one/slide2.png");
   background-position: center top;
 }
 .safa-one-slider .swiper-pagination-bullet:nth-child(4) {
-  background-image: url("../../public/img/safa-one/slide3.jpg");
+  background-image: url("../../public/img/safa-one/slide3.png");
   background-position: center top;
 }
 .safa-one-slider .swiper-pagination-bullet:nth-child(5) {
-  background-image: url("../../public/img/safa-one/slide4.jpg");
+  background-image: url("../../public/img/safa-one/image4.png");
   background-position: center top;
 }
 @media (max-width: 600px) {
@@ -370,23 +370,23 @@
   margin: 0 8px;
 }
 .chick-tower-slider .swiper-pagination-bullet:nth-child(1) {
-  background-image: url("../../public/img/chick-tower/main-slide.jpg");
+  background-image: url("../../public/img/chick-tower/main-slide.png");
   background-position: center top;
 }
 .chick-tower-slider .swiper-pagination-bullet:nth-child(2) {
-  background-image: url("../../public/img/chick-tower/slide1.jpg");
+  background-image: url("../../public/img/chick-tower/slide1.png");
   background-position: center top;
 }
 .chick-tower-slider .swiper-pagination-bullet:nth-child(3) {
-  background-image: url("../../public/img/chick-tower/slide2.jpg");
+  background-image: url("../../public/img/chick-tower/slide2.png");
   background-position: center top;
 }
 .chick-tower-slider .swiper-pagination-bullet:nth-child(4) {
-  background-image: url("../../public/img/chick-tower/slide3.jpg");
+  background-image: url("../../public/img/chick-tower/slide3.png");
   background-position: center top;
 }
 .chick-tower-slider .swiper-pagination-bullet:nth-child(5) {
-  background-image: url("../../public/img/chick-tower/slide2.jpg");
+  background-image: url("../../public/img/chick-tower/slide2.png");
   background-position: center top;
 }
 @media (max-width: 600px) {
@@ -410,6 +410,16 @@
     background: none;
     background-color: #fff;
   }
+}
+
+.card__image img {
+  width: 100%;
+  margin: 0 -4% 0 0;
+  border-radius: 0px;
+}
+
+.chick-tower-slider .photo {
+  margin-top: 20px;
 }
 
 .swiper-button-disabled {

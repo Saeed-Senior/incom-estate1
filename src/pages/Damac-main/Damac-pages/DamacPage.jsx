@@ -3,7 +3,7 @@ import '../damacMain.sass'
 const DamacPage = ({image, name, price, discription,}) => {
    return(
       <div className='damac-page'>
-         <img src={image} alt='img'/>
+         <div className='damac-page__image'><img src={image} alt='img'/></div>
       <span className='damac-page__OAE'>OAE</span>
       <h3>{name}</h3>
       <span className='damac-page__price'>{price}</span>

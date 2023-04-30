@@ -1,9 +1,17 @@
 .damac {
   padding-bottom: 150px;
 }
+.damac__logo {
+  max-width: 900px;
+  padding: 10% 20px 0;
+  margin: 0 auto;
+}
+.damac__logo img {
+  width: 345px;
+}
 @media (max-width: 1330px) {
-  .damac .banner {
-    height: calc(210px + 342 * (100vw - 400px) / 930);
+  .damac__logo img {
+    width: calc(170px + 175 * (100vw - 400px) / 930);
   }
 }
 
@@ -45,7 +53,12 @@
     padding-bottom: 100px;
   }
 }
+.damac-page__image {
+  height: 280px;
+}
 .damac-page img {
+  object-fit: cover;
+  height: 100%;
   border-radius: 15px;
   width: 100%;
   transition: 0.3s;

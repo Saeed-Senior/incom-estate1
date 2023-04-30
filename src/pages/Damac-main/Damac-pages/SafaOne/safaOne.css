@@ -137,4 +137,15 @@
     margin-bottom: 0;
     padding-bottom: 0;
   }
+}
+.slider-safa-one {
+  margin-bottom: 0;
+}
+.slider-safa-one div {
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .slider-safa-one {
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=safaOne.css.map */

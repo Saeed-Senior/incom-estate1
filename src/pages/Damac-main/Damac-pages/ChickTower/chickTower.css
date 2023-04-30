@@ -145,4 +145,13 @@ ul li {
 .slider-chick-tower div {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.slider-chick-tower div {
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .slider-chick-tower {
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=chickTower.css.map */
