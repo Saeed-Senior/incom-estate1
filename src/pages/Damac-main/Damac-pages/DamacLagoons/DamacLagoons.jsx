@@ -306,28 +306,6 @@ const DamacLagoons = () => {
                </div>
             </div>
       </section>
-      <section className='merit'>
-      <div className="container">
-      <span className='merit__overhead'>{t('damac-lagoons-section13-overhead')}</span>
-      <h2 className='merit__title'>{t('damac-lagoons-section13-title')}</h2>
-      <div className='merit__damac'>
-         <p className='merit__damac-txt'>{t('damac-lagoons-section13-text')}</p>
-         <div className='merit__damac-img'>
-            <img src='./img/damac-lagoons/damac.png' alt='img'/>
-         </div>
-      </div>
-      <div className='merit__awards'>
-      <div className='merit__award'>
-         <span>{t('damac-lagoons-section13-txt1')}</span>
-         <img src='./img/damac-lagoons/2019.png' alt='img'/>
-      </div>
-      <div className='merit__award'>
-         <span>{t('damac-lagoons-section13-txt2')}</span>
-         <img src='./img/damac-lagoons/2020.png' alt='img'/>
-      </div>
-      </div>
-      </div>
-      </section>
       </div>
    )
 }

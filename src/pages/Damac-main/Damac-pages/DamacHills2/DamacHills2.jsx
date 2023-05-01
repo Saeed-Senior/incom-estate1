@@ -161,10 +161,6 @@ const DamacHills2 = () => {
                <h3>{t('damac-hills2-section7-item2.1')}</h3>
                   <p>{t('damac-hills2-section7-item2.2')}</p>
                </div>
-               <div className='dh2-faq__list-item'>
-               <h3>{t('damac-hills2-section7-item3.1')}</h3>
-                  <p>{t('damac-hills2-section7-item3.2')}</p>
-               </div>
             </div>
          </div>
          <div className='damac-hills2__reasoans1 reasons'>

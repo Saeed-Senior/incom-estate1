@@ -67,8 +67,8 @@ const SafaOne = () => {
                <img src='./img/cavalli-couture/image3.jpg' alt='img'/>
             </div>
          </div>
-         <FloorPlans title1={t('one-bedroom')} title2={t('two-bedroom')} title3={t('three-bedroom')}
-            image1={'./img/cavalli-couture/drawing1.jpg'} image2={'./img/cavalli-couture/drawing2.jpg'} image3={'./img/cavalli-couture/drawing3.jpg'}/>
+         <FloorPlans title1={t('bedroom3')} title2={t('bedroom4')} title3={t('bedroom6')}
+            image1={'./img/cavalli-couture/drawing3.jpg'} image2={'./img/cavalli-couture/drawing2.jpg'} image3={'./img/cavalli-couture/drawing1.jpg'}/>
          <div className='cavalli-couture__flex-two'>
             <div className='cavalli-couture__flex-text'>
             <p>

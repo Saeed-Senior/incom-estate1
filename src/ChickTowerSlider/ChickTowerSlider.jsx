@@ -9,7 +9,7 @@ const ChickTowerSlider = () => {
     <div className="slider-chick-tower">
       <div className="cards wrap chick-tower-slider">
         <div className="cards__wrap">
-          <div className="photo">5 {t('photo')}</div>
+          <div className="photo">4 {t('photo')}</div>
           <Swiper
             spaceBetween={24}
             slidesPerView={1}
@@ -42,13 +42,6 @@ const ChickTowerSlider = () => {
               <div className="card">
                 <div className="card__image">
                   <img src='./img/chick-tower/slide3.png' alt="" />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="card">
-                <div className="card__image">
-                  <img src='./img/chick-tower/slide2.png' alt="" />
                 </div>
               </div>
             </SwiperSlide>

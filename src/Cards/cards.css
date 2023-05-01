@@ -385,10 +385,6 @@
   background-image: url("../../public/img/chick-tower/slide3.png");
   background-position: center top;
 }
-.chick-tower-slider .swiper-pagination-bullet:nth-child(5) {
-  background-image: url("../../public/img/chick-tower/slide2.png");
-  background-position: center top;
-}
 @media (max-width: 600px) {
   .chick-tower-slider .swiper-pagination-bullet:nth-child(1) {
     background: none;

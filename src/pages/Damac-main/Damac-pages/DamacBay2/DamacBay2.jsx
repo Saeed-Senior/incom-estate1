@@ -68,12 +68,12 @@ const DamacBay2 = () => {
          <div className='container brochure__container'>
          <div className='brochure__text'>
             <h2 className='brochure__title'>{t('damac-bay2-section3-title')} <span>{t('brochure')}</span> {t('about')} Damac Bay 2</h2>
-            <ul className='brochure__list'>
+            {/* <ul className='brochure__list'>
                <li className='brochure__list-item'>{t('damac-bay2-section3-list-item1')}</li>
                <li className='brochure__list-item'>{t('damac-bay2-section3-list-item2')}</li>
                <li className='brochure__list-item'>{t('damac-bay2-section3-list-item3')}</li>
                <li className='brochure__list-item'>{t('damac-bay2-section3-list-item4')}</li>
-            </ul>
+            </ul> */}
          </div>
          <div className='brochure__img'>
          <img src='./img/damac-bay2/brochure.png' alt='img'/>

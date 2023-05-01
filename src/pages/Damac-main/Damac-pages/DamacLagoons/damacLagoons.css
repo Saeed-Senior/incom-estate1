@@ -227,11 +227,11 @@
   }
 }
 
-.damac-lagoons section {
+.damac-lagoons__cards {
   padding-bottom: 120px;
 }
 @media (max-width: 1330px) {
-  .damac-lagoons section {
+  .damac-lagoons__cards {
     padding-bottom: calc(70px + 50 * (100vw - 370px) / 960);
   }
 }
