@@ -8,6 +8,7 @@ import Investment from '../Investment/Investment';
 import RealEstate from '../RealEstate/RealEstate';
 import Sari from '../Sari/Sari';
 import Services from '../Services/Services';
+import Form from '../Form/Form';
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -24,6 +25,7 @@ const Home = () => {
       <ProjectsCard link='' image='./img/projects-cards/2.png' title={'Iman Developers'}/>
       <ProjectsCard link='' image='./img/projects-cards/3.jpg' title={'Oro24 Developments'}/>
       <Services />
+      <Form/>
       <Faq />
     </div>
   );

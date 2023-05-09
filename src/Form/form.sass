@@ -1,0 +1,92 @@
+
+.form
+   background-color: white
+   border-radius: 24px
+   max-width: 900px
+   margin: 0 auto
+   padding: 25px
+   display: flex
+   flex-direction: column
+   select, option
+      font-size: 18px
+   &__title
+      text-align: center
+   &__sub-title
+      margin: 12px 0
+   &__input
+      font-size: 20px
+      margin: 12px 0
+      outline: none
+      background-color: #FAFCFC
+      border: 1px solid #CED3D6
+      padding: 12px
+      border-radius: 8px
+      &:focus
+         border: 1px solid #CFAC6A
+      &.valid
+         &:focus
+            border: 2px solid red
+   &__button
+      cursor: pointer
+      width: 35%
+      font-size: 20px
+      margin: 12px auto 0
+      padding: 12px 0
+      border-radius: 8px
+      color: white
+      background-color: #CFAC6A
+      border: 0
+      transition: .3s
+      &:hover
+         background-color: #9e8350
+      @media (max-width: 768px)
+         width: 100%
+
+.draft
+   position: fixed
+   z-index: 100
+   top: 0
+   left: 0
+   right: 0
+   bottom: 0
+   background-color: rgba(0, 0, 0, 0.8)
+
+.draft2
+   position: fixed
+   z-index: 100
+   top: 0
+   left: 0
+   right: 0
+   bottom: 0
+   background-color: rgba(0, 0, 0, 0)
+
+.thanks
+   position: fixed
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+   padding: 20px
+   border-radius: 20px
+   text-align: center
+   top: 50%
+   left: 50%
+   transform: translate(-50%, -50%)
+   z-index: 100
+   width: 40%
+   background-color: white
+
+.loader 
+   width: 18px
+   height: 18px
+   border: 2px solid #FFF
+   border-bottom-color: transparent
+   border-radius: 50%
+   display: inline-block
+   box-sizing: border-box
+   animation: rotation 1s linear infinite
+
+
+@keyframes rotation 
+   0% 
+      transform: rotate(0deg)
+   100% 
+      transform: rotate(360deg)
+
