@@ -32,6 +32,9 @@ const Footer = () => {
               <Link to="/#footer" className="footer__link">
                 {t('link5')}
               </Link>
+              <Link to="/news" className="footer__link">
+                  {t('news')}
+              </Link>
             </div>
             <div className="footer__item">
               <Link to="mailto:info@incomestate.ae" className="footer__link">

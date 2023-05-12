@@ -21,9 +21,11 @@ const Home = () => {
       <Investment />
       <Hills />
       <Sari />
+      <div className='show-cards'>
       <ProjectsCard link='/damac' image='./img/projects-cards/1.jpg' title={'DAMAC Properties'}/>
       <ProjectsCard link='' image='./img/projects-cards/2.png' title={'Iman Developers'}/>
       <ProjectsCard link='' image='./img/projects-cards/3.jpg' title={'Oro24 Developments'}/>
+      </div>
       <Services />
       <Form/>
       <Faq />

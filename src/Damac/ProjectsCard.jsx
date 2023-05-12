@@ -4,7 +4,7 @@ import './damac.sass';
 const ProjectsCard = ({title, image, link}) => {
   const { t } = useTranslation();
   return (
-    <div className="wrap">
+    <div className="wrap show-card">
       <div className="damac">
         <div className="title">{title}</div>
         <div className="flex__description">{t('show-projects')} <span>{title}</span></div>

@@ -16,9 +16,13 @@ const News = () => {
          <div className='wrap'>
          <div className='news__wrap'>
          <ul className='news__nav'>
+            <Link to='/'>
             <li>{t('home')}</li>
+            </Link>
             <li>&#707;</li>
+            <Link to='/news'>
             <li>{t('news')}</li>
+            </Link>
          </ul>
          <h1 className='news__title'>{t('news-title')}</h1>
          <div className='news__cards'>
