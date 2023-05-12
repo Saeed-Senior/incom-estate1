@@ -2,10 +2,12 @@ import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
 import './form.sass'
 import { useState } from 'react';
-import InputMask from 'react-input-mask';
-
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css';
 
 function Form() {
+
+   const { t } = useTranslation();
 
    const [loader, setLoader] = useState(false);
    const [thanks, setThanks] = useState(false);
@@ -14,21 +16,16 @@ function Form() {
    const [value3, setValue3] = useState('');
    const [valid, setValid] = useState(false);
 
-   const { t } = useTranslation();
-
    async function sendEmail(e) {
       e.preventDefault();
    
       const nameField = e.target.elements.from_name;
       const emailField = e.target.elements.from_email;
-      const phoneField = e.target.elements.from_phone;
    
       const name = nameField.value.trim();
       const email = emailField.value.trim();
-      const phone = phoneField.value.trim();
    
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      const phoneRegex = /^\+?\d{1,3}\s*\(\d{3}\)\s*\d{3}(\s|-)*\d{2}(\s|-)*\d{2}$/;
    
       if (!name) {
          setValid(true);
@@ -39,12 +36,6 @@ function Form() {
       if (!emailRegex.test(email)) {
          setValid(true);
          emailField.focus();
-         return;
-      }
-   
-      if (!phoneRegex.test(phone)) {
-         setValid(true);
-         phoneField.focus();
          return;
       }
    
@@ -84,7 +75,7 @@ function Form() {
          </select>
          <input value={value1} onChange={(e) => setValue1(e.target.value)} placeholder={t('name')} className={valid ? "form__input valid" : "form__input"} type="text" name="from_name" id="nameFrom"/>
          <input value={value2} onChange={(e) => setValue2(e.target.value)} placeholder='*E-mail' className={valid ? "form__input valid" : "form__input"} type="text" name="from_email" id="nameFrom"/>
-         <InputMask value={value3} onChange={(e) => setValue3(e.target.value)} mask="+9 (999) 999-99-99" maskChar=" " placeholder="+7 (___) ___-__-__" className={valid ? "form__input valid" : "form__input"} type="tel" name="from_phone" id="phoneFrom" />
+         <PhoneInput placeholder={t('enter-phone')} value={value3} onChange={() => setValue3(value3)} type="tel" name="from_phone" id="phoneFrom"/>
          <button className='form__button'>
             {loader ? <span className='loader'></span> : (
             t('form-button'))}

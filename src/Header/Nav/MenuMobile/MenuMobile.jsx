@@ -43,7 +43,7 @@ const MenuMobile = ({ menuState, setMenuOpen }) => {
             <Link to="/#services" className={style.menu__item}>
               {t('Services')}
             </Link>
-            <Link to="/news" className="menu__item">
+            <Link to="/news" className={style.menu__item}>
                   {t('news')}
                 </Link>
             <Link to="/about" className={style.menu__item}>
