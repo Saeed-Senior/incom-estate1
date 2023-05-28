@@ -7,6 +7,7 @@ import Hills from '../Hills/Hills';
 import Investment from '../Investment/Investment';
 import RealEstate from '../RealEstate/RealEstate';
 import Sari from '../Sari/Sari';
+import Luma from '../Luma/Luma';
 import Services from '../Services/Services';
 import Form from '../Form/Form';
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <Investment />
       <Hills />
       <Sari />
+      <Luma />
       <div className='show-cards'>
       <ProjectsCard link='/damac' image='./img/projects-cards/1.jpg' title={'DAMAC Properties'}/>
       <ProjectsCard link='' image='./img/projects-cards/2.png' title={'Iman Developers'}/>

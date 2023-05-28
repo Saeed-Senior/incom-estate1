@@ -8,15 +8,23 @@ const Header = () => {
     <header>
       <div className="header" id="header">
         <Nav />
-        <div className="header__wrap">
-          <div className="wrap">
-            <div className="header__text">
-              <h1 className="header__title">{t('header-title')}</h1>
-              <div className="header__description">{t('header-desc')}</div>
-            </div>
-          </div>
+        <div className='main-banner'>
+          <div className='main-banner__layer'></div>
+          <img className='banner-image' src='./img/header/main-banner.jpg' alt='img'/>
+      <div className='main-banner-inner container'>
+        <div className='banner__inner-text'>
+        <div className='logo-main'>
+        <img src='./img/header/logo-main-banner.png' alt='logo'/>
+        <div className='logo-main__text'>
+        <span className='logo-main__title'>INCOM</span>
+        <span className='logo-main__subtitle'>DUB REAL ESTATE</span>
+      </div>
         </div>
-        <div className="nav-size"></div>
+        <h1 className="header__title">{t('header-title')}</h1>
+        <div className="header__description">{t('header-desc')}</div>
+          </div>
+      </div>
+      </div>
       </div>
     </header>
   );

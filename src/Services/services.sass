@@ -1,15 +1,21 @@
 .services
-    padding-top: 120px
+    padding-bottom: 120px
     &__bg
-        width: 100%
-        margin-bottom: 150px
+        width: 55%
         padding: 48px 70px
         border-radius: 24px
-        background: #1F2E36 url(../../public/img/services/bg.png) no-repeat bottom right/65%
+        background: #1F2E36 url(../../public/img/services/bg.png) no-repeat bottom right/100%
         color: #fff
+        @media(max-width: 768px)
+            width: 100%
     &__subtitle
         max-width: 770px
         margin: 8px 0 48px
+
+.services-wrap
+    display: flex
+    @media(max-width: 768px)
+        flex-direction: column-reverse
 
 .service
     display: flex
@@ -52,3 +58,37 @@
                 img
                     width: 50%
             
+
+.services-list
+    margin-top: -20px
+    @media(max-width: 768px)
+        margin: 0 0 45px
+    li
+        display: flex
+        align-items: center
+        font-size: 24px
+        font-weight: 500
+        margin-bottom: 24px
+        @media(max-width: 768px)
+            font-size: calc(15px + (24 - 15) * ((100vw - 390px) / (768 - 390)))
+    span
+        flex: 0 0 auto
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        width: 80px
+        height: 80px
+        margin: 0 20px 0 40px
+        color: #CFAC6A
+        font-size: 38px
+        background-color: #FFFBF5
+        box-shadow: 0 3px 0 rgba(0, 0, 0, 0.04)
+        @media(max-width: 768px)
+            width: calc(50px + (80 - 50) * ((100vw - 390px) / (768 - 390)))
+            height: calc(50px + (80 - 50) * ((100vw - 390px) / (768 - 390)))
+            font-size: calc(25px + (38 - 25) * ((100vw - 390px) / (768 - 390)))
+        @media(max-width: 768px)
+            margin: 0 20px 0 0px
+
+

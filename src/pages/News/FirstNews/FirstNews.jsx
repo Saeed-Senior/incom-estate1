@@ -4,11 +4,11 @@ import { useEffect } from "react";
 import NewsCard from '../NewsCard';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../news.sass';
-import './firstNews.sass';
+import '../stylesNews/_stylesNews.sass';
 
 
 
-const News = () => {
+const FirstNews = () => {
    const { t } = useTranslation();
    useEffect(() => {
       window.scrollTo(0, 0);
@@ -144,10 +144,12 @@ const News = () => {
          <h2 className='news__cards-read-more'>{t('read-also')}</h2>
          <div className='news__cards'>
          <Link to='/news1'>
-         <NewsCard image={'./img/news/news1.png'} title={'История и Культура эмирата'} theme={'ИСТОРИЯ'} text={'Познайте радушное гостеприимство жителей Дубая и познакомьтесь с кулинарными традициями и историей эмирата.'}/>
+         <NewsCard image={'./img/news/news1.png'} title={t('news-card1-title')} theme={t('news-card1-theme')} text={t('news-card1-text')}/>
          </Link>
-            <NewsCard image={'./img/news/news2.png'} title={'В Дубае робот впервые начал регистрировать пассажиров на рейсы'} theme={'АВИАКОМПАНИИ'} text={'У авиакомпании Emirates появился робот-помощник – он занимается регистрацией пассажиров на рейс.'}/>
-            <NewsCard image={'./img/news/news3.png'} title={'В Дубае таксисты вернули пассажирам золото и бриллианты'} theme={'ТРАНСПОРТ'} text={'В Дубае водители такси вернули пассажирам бриллианты на общую сумму 1 млн дирхамов.'}/>
+         <Link to='/news2'>
+         <NewsCard image={'./img/news/news2.png'} title={t('news-card2-title')} theme={t('news-card2-theme')} text={t('news-card2-text')}/>
+         </Link>
+            <NewsCard image={'./img/news/news3.png'} title={t('news-card3-title')} theme={t('news-card3-theme')} text={t('news-card3-text')}/>
          </div>
          </div>
          </div>
@@ -155,4 +157,4 @@ const News = () => {
    )
 }
 
-export default News;
+export default FirstNews;

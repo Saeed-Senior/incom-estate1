@@ -45,8 +45,8 @@ const Nav = () => {
             </div>
             <div className="nav__right">
               <div className="phone">
-                <a href="tel:+971502866186" className="phone__number">
-                  +971 502 866186
+                <a href="tel:+971544490707" className="phone__number">
+                  +(971 5) 444-90707
                 </a>
               </div>
               <div className="lang">

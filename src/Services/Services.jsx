@@ -1,12 +1,14 @@
 import { useTranslation } from 'react-i18next';
+import ServicesList from './ServicesList';
 import './services.sass';
 
 const Services = () => {
   const { t } = useTranslation();
   return (
     <div className="services" id="services">
-      <div className="wrap">
+      <div className="wrap services-wrap">
         <div className="services__bg">
+          <img src='./img/services/mini-logo.png' alt='logo'/>
           <div className="title">{t('services-title')}</div>
           <div className="services__subtitle">{t('services-subtitle')}</div>
           <div className="services__wrap">
@@ -30,6 +32,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <ServicesList />
       </div>
     </div>
   );

@@ -10,6 +10,8 @@ import CardsSliderPage from './Cards/CardsSliderPage';
 import HillsSliderPage from './Hills/HillsSliderPage';
 import InvestmentSliderPage from './Investment/InvestmentSliderPage';
 import SariSliderPage from './Sari/SariSliderPage';
+import LumaSliderPage from './Luma/LumaSliderPage';
+
 
 import SafaOne from './pages/Damac-main/Damac-pages/SafaOne/SafaOne';
 import ChickTower from './pages/Damac-main/Damac-pages/ChickTower/ChickTower';
@@ -19,7 +21,8 @@ import DamacBay from './pages/Damac-main/Damac-pages/DamacBay/DamacBay';
 import DamacBay2 from './pages/Damac-main/Damac-pages/DamacBay2/DamacBay2';
 import DamacHills2 from './pages/Damac-main/Damac-pages/DamacHills2/DamacHills2';
 
-import FirstNews from './pages/News/FirstNews/FirstNews'
+import FirstNews from './pages/News/FirstNews/FirstNews';
+import SecondNews from './pages/News/SecondNews/SecondNews';
 
 const App = () => {
   return (
@@ -42,8 +45,10 @@ const App = () => {
         <Route path="/slider2" element={<HillsSliderPage />} />
         <Route path="/slider3" element={<InvestmentSliderPage />} />
         <Route path="/slider4" element={<SariSliderPage />} />
+        <Route path="/slider5" element={<LumaSliderPage />}/>
 
         <Route path="/news1" element={<FirstNews />} />
+        <Route path="/news2" element={<SecondNews />} />
       </Routes>
       <Footer />
     </div>
