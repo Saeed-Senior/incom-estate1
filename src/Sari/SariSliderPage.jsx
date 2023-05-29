@@ -1,7 +1,11 @@
 import Nav from '../Header/Nav/Nav';
+import {useEffect} from 'react';
 import './../Cards/cards.sass';
 
 const SariSliderPage = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0);
+   }, []);
    return(
       <>
       <Nav/>

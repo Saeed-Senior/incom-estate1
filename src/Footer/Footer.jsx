@@ -41,7 +41,7 @@ const Footer = () => {
                 info@incomestate.ae
               </Link>
               <Link to="tel:+971544490707" className="footer__link">
-                  +(971 5) 444-90707
+              +971 544490707
               </Link>
               <div className="networks">
                 <Link to="https://www.instagram.com/incom.ae/" className="networks__item">
