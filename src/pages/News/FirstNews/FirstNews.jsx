@@ -97,7 +97,7 @@ const FirstNews = () => {
                {t('fn-section4-list-item8.2')}</li>
             </ul>
             </div>
-            <img className='fn-section__image' src='./img/news/first-news/4.png' alt='img'/>
+            <img className='fn-section__image' src='./img/news/first-news/4.jpg' alt='img'/>
             <p className='fn-section__txt'>{t('fn-section4-txt')}</p>
          </div>
          <div className='first-news__section fn-section'>
@@ -149,7 +149,6 @@ const FirstNews = () => {
          <Link to='/news2'>
          <NewsCard image={'./img/news/news2.png'} title={t('news-card2-title')} theme={t('news-card2-theme')} text={t('news-card2-text')}/>
          </Link>
-            <NewsCard image={'./img/news/news3.png'} title={t('news-card3-title')} theme={t('news-card3-theme')} text={t('news-card3-text')}/>
          </div>
          </div>
          </div>

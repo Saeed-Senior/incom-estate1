@@ -14,7 +14,7 @@ const DamacHills2 = () => {
       <div className='damac-hills2'>
          <Nav/>
          <div className='banner damac-hills2__banner'>
-      <img className='banner-image' src='./img/damac-hills2/main.jpg' alt='img'/>
+      <img className='banner-image' src='./img/damac-hills2/main.png' alt='img'/>
       <div className='damac-hills2__title-wrap'>
          <img src='./img/damac-hills2/logo.png' alt='img'/>
          <span>{t('damac-hills2-title1')}</span>

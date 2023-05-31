@@ -34,7 +34,7 @@ return(
       <DamacPage image={'./img/damac-page-image/page3.jpg'} name={'Cavalli Couture'} price={`${t('beginning')} AED 16.5 million`} discription={t('damac-card3')}/>
       </Link>
       <Link to='/damac lagoons'>
-      <DamacPage image={'./img/damac-page-image/page4.png'} name={'Damac Lagoons'} price={`${t('beginning')} AED 1.5 million`} discription={t('damac-card4')}/>
+      <DamacPage image={'./img/damac-page-image/page4.jpg'} name={'Damac Lagoons'} price={`${t('beginning')} AED 1.5 million`} discription={t('damac-card4')}/>
       </Link>
       <Link to='/damac bay'>
       <DamacPage image={'./img/damac-page-image/page5.png'} name={'Damac Bay'}  discription={t('damac-card5')}/>
@@ -43,7 +43,7 @@ return(
       <DamacPage image={'./img/damac-page-image/page6.png'} name={'Damac Bay 2'}  discription={t('damac-card6')}/>
       </Link>
       <Link to='/damac hills2'>
-      <DamacPage image={'./img/damac-page-image/page7.jpg'} name={'Damac Hills 2'} price={`${t('beginning')} AED 1.3 million`} discription={t('damac-card7')}/>
+      <DamacPage image={'./img/damac-page-image/page7.png'} name={'Damac Hills 2'} price={`${t('beginning')} AED 1.3 million`} discription={t('damac-card7')}/>
       </Link>
       </div>
       </div>

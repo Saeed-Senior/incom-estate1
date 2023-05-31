@@ -32,7 +32,6 @@ const News = () => {
          <Link to='/news2'>
          <NewsCard image={'./img/news/news2.png'} title={t('news-card2-title')} theme={t('news-card2-theme')} text={t('news-card2-text')}/>
          </Link>
-            <NewsCard image={'./img/news/news3.png'} title={t('news-card3-title')} theme={t('news-card3-theme')} text={t('news-card3-text')}/>
          </div>
          </div>
          </div>
