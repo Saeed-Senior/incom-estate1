@@ -37,7 +37,7 @@ const Footer = () => {
               <Link to="mailto:info@incomestate.ae" className="footer__link">
                 info@incomestate.ae
               </Link>
-              <Link to="tel:+971521063357" className="footer__link">
+              <Link to="tel:+971554290826" className="footer__link">
               +971 521063357
               </Link>
               <div className="networks">
@@ -47,7 +47,7 @@ const Footer = () => {
                 <Link to="https://t.me/incom_ae" className="networks__item">
                   <img src="./img/footer/tel.svg" alt="" />
                 </Link>
-                <Link to="https://wa.me/+971521063357" className="networks__item">
+                <Link to="https://wa.me/+971554290826" className="networks__item">
                   <img src="./img/footer/whatsapp.png" alt="" />
                 </Link>
               </div>

@@ -67,7 +67,7 @@ function Form() {
          <form className="form" onSubmit={sendEmail}>
          <h3 className="form__title">{t('form-title')}</h3>
          <p className="form__sub-title">{t('form-sub-title')}</p>
-         <a href='https://wa.me/+971521063357' className='form__whatsapp-btn'><img src='img/form/wa.png' alt='WhatsApp'/></a>
+         <a href='https://wa.me/+971554290826' className='form__whatsapp-btn'><img src='img/form/wa.png' alt='WhatsApp'/></a>
          <p className="form__sub-title">{t('form-sub-title2')}</p>
          <select defaultValue='' name='question' className="form__input">
             <option disabled value=''>{t('form-select1')}</option>

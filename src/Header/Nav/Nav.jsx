@@ -46,10 +46,10 @@ const Nav = () => {
             <div className="nav__right">
               <div className="phone">
                 <div className="networks">
-                <Link to="tel:+971521063357" className="networks__item">
+                <Link to="tel:+971554290826" className="networks__item">
                   <img src="./img/footer/phone.png" alt="" />
                 </Link>
-                <Link to="https://wa.me/+971521063357" className="networks__item">
+                <Link to="https://wa.me/+971554290826" className="networks__item">
                   <img src="./img/footer/whatsapp.png" alt="" />
                 </Link>
               </div>
