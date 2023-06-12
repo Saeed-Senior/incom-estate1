@@ -45,9 +45,14 @@ const Nav = () => {
             </div>
             <div className="nav__right">
               <div className="phone">
-                <a href="tel:+971544490707" className="phone__number">
-                +971 544490707
-                </a>
+                <div className="networks">
+                <Link to="tel:+971544490707" className="networks__item">
+                  <img src="./img/footer/phone.png" alt="" />
+                </Link>
+                <Link to="https://wa.me/+971521063357" className="networks__item">
+                  <img src="./img/footer/whatsapp.png" alt="" />
+                </Link>
+              </div>
               </div>
               <div className="lang">
                 <div className="lang__active">{i18n.language}</div>

@@ -1,7 +1,8 @@
 import Footer from './Footer/Footer';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 
 import Home from './pages/Home';
+import NotFound from './pages/NotFound'
 import About from './pages/About';
 import News from './pages/News/News';
 import Damac from './pages/Damac-main/DamacMain';
@@ -49,7 +50,14 @@ const App = () => {
 
         <Route path="/news1" element={<FirstNews />} />
         <Route path="/news2" element={<SecondNews />} />
+
+        <Route path='/*' element={<NotFound/>}/>
       </Routes>
+      <Link to=''>
+      <a href='https://wa.me/+971521063357' class="fixed-component">
+        <img src='img/footer/whatsapp.png' alt='img'/>
+      </a>
+      </Link>
       <Footer />
     </div>
   );

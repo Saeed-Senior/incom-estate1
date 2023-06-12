@@ -29,9 +29,6 @@ const Footer = () => {
               <Link to="/about#about" className="footer__link">
                 {t('link4')}
               </Link>
-              <Link to="/#footer" className="footer__link">
-                {t('link5')}
-              </Link>
               <Link to="/news" className="footer__link">
                   {t('news')}
               </Link>
@@ -49,6 +46,9 @@ const Footer = () => {
                 </Link>
                 <Link to="https://t.me/incom_ae" className="networks__item">
                   <img src="./img/footer/tel.svg" alt="" />
+                </Link>
+                <Link to="https://wa.me/+971521063357" className="networks__item">
+                  <img src="./img/footer/whatsapp.png" alt="" />
                 </Link>
               </div>
             </div>

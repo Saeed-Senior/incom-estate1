@@ -67,6 +67,8 @@ function Form() {
          <form className="form" onSubmit={sendEmail}>
          <h3 className="form__title">{t('form-title')}</h3>
          <p className="form__sub-title">{t('form-sub-title')}</p>
+         <a href='https://wa.me/+971521063357' className='form__whatsapp-btn'><img src='img/form/wa.png' alt='WhatsApp'/></a>
+         <p className="form__sub-title">{t('form-sub-title2')}</p>
          <select defaultValue='' name='question' className="form__input">
             <option disabled value=''>{t('form-select1')}</option>
             <option>{t('form-select2')}</option>
@@ -76,6 +78,15 @@ function Form() {
          <input value={value1} onChange={(e) => setValue1(e.target.value)} placeholder={t('name')} className={valid ? "form__input valid" : "form__input"} type="text" name="from_name" id="nameFrom"/>
          <input value={value2} onChange={(e) => setValue2(e.target.value)} placeholder='*E-mail' className={valid ? "form__input valid" : "form__input"} type="text" name="from_email" id="nameFrom"/>
          <PhoneInput placeholder={t('enter-phone')} value={value3} onChange={() => setValue3(value3)} type="tel" name="from_phone" id="phoneFrom"/>
+         <p className="form__sub-title">{t('form-sub-title3')}</p>
+         <div class="request__checkboxes">
+                        <input value="whatsapp" id="message1" class="request__checkbox1 request__checkbox" type="radio" name="from_messanger"/>
+                        <label class="request__label1" for="message1"></label>
+                        <input value="telegram" id="message2" class="request__checkbox2 request__checkbox" type="radio" name="from_messanger"/>
+                        <label class="request__label2" for="message2"></label>
+                        <input value="phone" id="message3" class="request__checkbox3 request__checkbox" type="radio" name="from_messanger"/>
+                        <label class="request__label3" for="message3"></label>
+                     </div>
          <button className='form__button'>
             {loader ? <span className='loader'></span> : (
             t('form-button'))}

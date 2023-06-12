@@ -38,9 +38,13 @@ footer {
   height: 36px;
   background: #344F5E;
   border-radius: 8px;
-}
-.networks__item:nth-child(1) {
   margin-right: 16px;
+}
+.networks__item:last-child {
+  margin-right: 0px;
+}
+.networks img {
+  max-width: 20px;
 }
 
 @media screen and (max-width: 768px) {
