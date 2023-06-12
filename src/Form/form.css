@@ -184,6 +184,9 @@
 }
 
 .form__whatsapp-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid rgb(3, 197, 3);
   background-color: transparent;
   border-radius: 8px;
