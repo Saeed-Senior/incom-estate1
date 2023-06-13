@@ -53,11 +53,9 @@ const App = () => {
 
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
-      <Link to=''>
       <a href='https://wa.me/+971554290826' class="fixed-component">
         <img src='img/footer/whatsapp.png' alt='img'/>
       </a>
-      </Link>
       <Footer />
     </div>
   );
