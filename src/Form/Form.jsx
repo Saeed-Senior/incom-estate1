@@ -79,13 +79,13 @@ function Form() {
          <input value={value2} onChange={(e) => setValue2(e.target.value)} placeholder='*E-mail' className={valid ? "form__input valid" : "form__input"} type="text" name="from_email" id="nameFrom"/>
          <PhoneInput placeholder={t('enter-phone')} value={value3} onChange={() => setValue3(value3)} type="tel" name="from_phone" id="phoneFrom"/>
          <p className="form__sub-title">{t('form-sub-title3')}</p>
-         <div class="request__checkboxes">
-                        <input value="whatsapp" id="message1" class="request__checkbox1 request__checkbox" type="radio" name="from_messanger"/>
-                        <label class="request__label1" for="message1"></label>
-                        <input value="telegram" id="message2" class="request__checkbox2 request__checkbox" type="radio" name="from_messanger"/>
-                        <label class="request__label2" for="message2"></label>
-                        <input value="phone" id="message3" class="request__checkbox3 request__checkbox" type="radio" name="from_messanger"/>
-                        <label class="request__label3" for="message3"></label>
+         <div className="request__checkboxes">
+                        <input value="whatsapp" id="message1" className="request__checkbox1 request__checkbox" type="radio" name="from_messanger"/>
+                        <label className="request__label1" htmlFor="message1"></label>
+                        <input value="telegram" id="message2" className="request__checkbox2 request__checkbox" type="radio" name="from_messanger"/>
+                        <label className="request__label2" htmlFor="message2"></label>
+                        <input value="phone" id="message3" className="request__checkbox3 request__checkbox" type="radio" name="from_messanger"/>
+                        <label className="request__label3" htmlFor="message3"></label>
                      </div>
          <button className='form__button'>
             {loader ? <span className='loader'></span> : (

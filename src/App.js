@@ -12,6 +12,7 @@ import HillsSliderPage from './Hills/HillsSliderPage';
 import InvestmentSliderPage from './Investment/InvestmentSliderPage';
 import SariSliderPage from './Sari/SariSliderPage';
 import LumaSliderPage from './Luma/LumaSliderPage';
+import AdharaSliderPage from './Adhara/AdharaSliderPage';
 
 
 import SafaOne from './pages/Damac-main/Damac-pages/SafaOne/SafaOne';
@@ -47,13 +48,14 @@ const App = () => {
         <Route path="/slider3" element={<InvestmentSliderPage />} />
         <Route path="/slider4" element={<SariSliderPage />} />
         <Route path="/slider5" element={<LumaSliderPage />}/>
+        <Route path="/slider6" element={<AdharaSliderPage />}/>
 
         <Route path="/news1" element={<FirstNews />} />
         <Route path="/news2" element={<SecondNews />} />
 
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
-      <a href='https://wa.me/+971554290826' class="fixed-component">
+      <a href='https://wa.me/+971554290826' className="fixed-component">
         <img src='img/footer/whatsapp.png' alt='img'/>
       </a>
       <Footer />
