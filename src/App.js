@@ -13,6 +13,7 @@ import InvestmentSliderPage from './Investment/InvestmentSliderPage';
 import SariSliderPage from './Sari/SariSliderPage';
 import LumaSliderPage from './Luma/LumaSliderPage';
 import AdharaSliderPage from './Adhara/AdharaSliderPage';
+import HabtoorSliderPage from './Habtoor/HbtoorSliderPage';
 
 
 import SafaOne from './pages/Damac-main/Damac-pages/SafaOne/SafaOne';
@@ -26,7 +27,10 @@ import DamacHills2 from './pages/Damac-main/Damac-pages/DamacHills2/DamacHills2'
 import FirstNews from './pages/News/FirstNews/FirstNews';
 import SecondNews from './pages/News/SecondNews/SecondNews';
 
+
+
 const App = () => {
+
   return (
     <div className="App">
       <Routes>
@@ -49,6 +53,7 @@ const App = () => {
         <Route path="/slider4" element={<SariSliderPage />} />
         <Route path="/slider5" element={<LumaSliderPage />}/>
         <Route path="/slider6" element={<AdharaSliderPage />}/>
+        <Route path="/slider7" element={<HabtoorSliderPage />}/>
 
         <Route path="/news1" element={<FirstNews />} />
         <Route path="/news2" element={<SecondNews />} />
@@ -62,5 +67,5 @@ const App = () => {
     </div>
   );
 };
-
+//test add
 export default App;

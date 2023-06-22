@@ -11,6 +11,7 @@ import Luma from '../Luma/Luma';
 import Services from '../Services/Services';
 import Form from '../Form/Form';
 import Adhara from '../Adhara/Adhara';
+import Habtoor from '../Habtoor/Habtoor';
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,6 +26,7 @@ const Home = () => {
       <Sari />
       <Luma />
       <Adhara/>
+      <Habtoor/>
       <div className='show-cards'>
       <ProjectsCard link='/damac' image='./img/projects-cards/1.jpg' title={'DAMAC Properties'}/>
       <ProjectsCard link='' image='./img/projects-cards/2.png' title={'Iman Developers'}/>
